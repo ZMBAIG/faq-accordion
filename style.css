@@ -54,7 +54,6 @@ header h2 {
   align-items: center;
   padding: 1rem 0;
   font-weight: 600;
-  /* border: 1px solid red; */
 }
 .faq_question:hover {
   cursor: pointer;
@@ -65,9 +64,6 @@ header h2 {
 }
 .hidden {
   display: none;
-  /* height: 0;
-  opacity: 0;
-  margin: 0; */
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
