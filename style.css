@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+  background-color: var(--Light-pink);
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+ul li {
+  list-style: none;
+}
+
+header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.wrapper {
+  max-width: 500px;
+  max-height: 550px;
+  background: var(--White);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 6px 6px 16px 0px rgba(139, 139, 139, 0.75);
+}
+.faq_question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  font-weight: 600;
+  /* border: 1px solid red; */
+}
+.faq_question:hover {
+  cursor: pointer;
+  color: var(--Grayish-purple);
+}
+.faq_answer {
+  color: var(--Grayish-purple);
+}
+.hidden {
+  display: none;
+  /* height: 0;
+  opacity: 0;
+  margin: 0; */
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(./assets/images/background-pattern-mobile.svg);
+    background-color: var(--Light-pink);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .wrapper {
+    margin: 0 1rem;
+  }
+  .attribution {
+    padding: 2rem 0;
+  }
+}
