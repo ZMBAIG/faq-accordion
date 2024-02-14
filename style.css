@@ -25,6 +25,7 @@ body {
   background-color: var(--Light-pink);
   background-repeat: no-repeat;
   background-size: fill;
+  background-position: top;
 }
 ul li {
   list-style: none;
@@ -41,12 +42,12 @@ header h2 {
 }
 
 .wrapper {
-  max-width: 500px;
-  max-height: 550px;
+  max-width: 600px;
+  max-height: 570px;
   background: var(--White);
   border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 6px 6px 16px 0px rgba(139, 139, 139, 0.75);
+  padding: 50px;
+  box-shadow: 6px 6px 26px 0px rgba(139, 139, 139, 0.75);
 }
 .faq_question {
   display: flex;
