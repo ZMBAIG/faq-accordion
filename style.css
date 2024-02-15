@@ -71,27 +71,18 @@ header h2 {
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  padding: 1rem 0;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  font-size: 11px;
-}
-
 @media screen and (max-width: 600px) {
   body {
     background-image: url(./assets/images/background-pattern-mobile.svg);
     background-color: var(--Light-pink);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
   }
+
   .wrapper {
-    margin: 0 1rem;
-  }
-  .attribution {
-    padding: 2rem 0;
+    width: 90%;
+    height: 70vh;
+    position: relative;
+    top: 8rem;
   }
 }
