@@ -42,10 +42,10 @@ header h2 {
 }
 
 .wrapper {
-  position: relative;
+  /* position: relative; */
   width: 600px;
   height: 565px;
-  top: 165px;
+  margin-top: 165px;
   background: var(--White);
   border-radius: 1rem;
   padding: 40px 55px;
@@ -71,7 +71,7 @@ header h2 {
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     background-image: url(./assets/images/background-pattern-mobile.svg);
     background-color: var(--Light-pink);
@@ -81,8 +81,8 @@ header h2 {
 
   .wrapper {
     width: 90%;
-    height: 70vh;
-    position: relative;
-    top: 8rem;
+    height: 80vh;
+    /* position: relative; */
+    margin-top: 5rem;
   }
 }
